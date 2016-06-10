@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4D5F29A1D0A9FF2007EE115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5F2991D0A9FF2007EE115 /* AppDelegate.swift */; };
+		F4D5F29C1D0A9FF2007EE115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5F29B1D0A9FF2007EE115 /* ViewController.swift */; };
+		F4D5F29F1D0A9FF2007EE115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D5F29D1D0A9FF2007EE115 /* Main.storyboard */; };
+		F4D5F2A11D0A9FF2007EE115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D5F2A01D0A9FF2007EE115 /* Assets.xcassets */; };
+		F4D5F2A41D0A9FF2007EE115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D5F2A21D0A9FF2007EE115 /* LaunchScreen.storyboard */; };
+		F4D5F2AF1D0A9FF2007EE115 /* meiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5F2AE1D0A9FF2007EE115 /* meiroTests.swift */; };
+		F4D5F2BA1D0A9FF2007EE115 /* meiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5F2B91D0A9FF2007EE115 /* meiroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D5F2AB1D0A9FF2007EE115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D5F28E1D0A9FF2007EE115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D5F2951D0A9FF2007EE115;
+			remoteInfo = meiro;
+		};
+		F4D5F2B61D0A9FF2007EE115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D5F28E1D0A9FF2007EE115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D5F2951D0A9FF2007EE115;
+			remoteInfo = meiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4D5F2961D0A9FF2007EE115 /* meiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D5F2991D0A9FF2007EE115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4D5F29B1D0A9FF2007EE115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D5F29E1D0A9FF2007EE115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4D5F2A01D0A9FF2007EE115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D5F2A31D0A9FF2007EE115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4D5F2A51D0A9FF2007EE115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D5F2AA1D0A9FF2007EE115 /* meiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D5F2AE1D0A9FF2007EE115 /* meiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meiroTests.swift; sourceTree = "<group>"; };
+		F4D5F2B01D0A9FF2007EE115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D5F2B51D0A9FF2007EE115 /* meiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D5F2B91D0A9FF2007EE115 /* meiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meiroUITests.swift; sourceTree = "<group>"; };
+		F4D5F2BB1D0A9FF2007EE115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D5F2931D0A9FF2007EE115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5F2A71D0A9FF2007EE115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5F2B21D0A9FF2007EE115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D5F28D1D0A9FF2007EE115 = {
+			isa = PBXGroup;
+			children = (
+				F4D5F2981D0A9FF2007EE115 /* meiro */,
+				F4D5F2AD1D0A9FF2007EE115 /* meiroTests */,
+				F4D5F2B81D0A9FF2007EE115 /* meiroUITests */,
+				F4D5F2971D0A9FF2007EE115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D5F2971D0A9FF2007EE115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5F2961D0A9FF2007EE115 /* meiro.app */,
+				F4D5F2AA1D0A9FF2007EE115 /* meiroTests.xctest */,
+				F4D5F2B51D0A9FF2007EE115 /* meiroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D5F2981D0A9FF2007EE115 /* meiro */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5F2991D0A9FF2007EE115 /* AppDelegate.swift */,
+				F4D5F29B1D0A9FF2007EE115 /* ViewController.swift */,
+				F4D5F29D1D0A9FF2007EE115 /* Main.storyboard */,
+				F4D5F2A01D0A9FF2007EE115 /* Assets.xcassets */,
+				F4D5F2A21D0A9FF2007EE115 /* LaunchScreen.storyboard */,
+				F4D5F2A51D0A9FF2007EE115 /* Info.plist */,
+			);
+			path = meiro;
+			sourceTree = "<group>";
+		};
+		F4D5F2AD1D0A9FF2007EE115 /* meiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5F2AE1D0A9FF2007EE115 /* meiroTests.swift */,
+				F4D5F2B01D0A9FF2007EE115 /* Info.plist */,
+			);
+			path = meiroTests;
+			sourceTree = "<group>";
+		};
+		F4D5F2B81D0A9FF2007EE115 /* meiroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5F2B91D0A9FF2007EE115 /* meiroUITests.swift */,
+				F4D5F2BB1D0A9FF2007EE115 /* Info.plist */,
+			);
+			path = meiroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D5F2951D0A9FF2007EE115 /* meiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5F2BE1D0A9FF2007EE115 /* Build configuration list for PBXNativeTarget "meiro" */;
+			buildPhases = (
+				F4D5F2921D0A9FF2007EE115 /* Sources */,
+				F4D5F2931D0A9FF2007EE115 /* Frameworks */,
+				F4D5F2941D0A9FF2007EE115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meiro;
+			productName = meiro;
+			productReference = F4D5F2961D0A9FF2007EE115 /* meiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D5F2A91D0A9FF2007EE115 /* meiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5F2C11D0A9FF2007EE115 /* Build configuration list for PBXNativeTarget "meiroTests" */;
+			buildPhases = (
+				F4D5F2A61D0A9FF2007EE115 /* Sources */,
+				F4D5F2A71D0A9FF2007EE115 /* Frameworks */,
+				F4D5F2A81D0A9FF2007EE115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D5F2AC1D0A9FF2007EE115 /* PBXTargetDependency */,
+			);
+			name = meiroTests;
+			productName = meiroTests;
+			productReference = F4D5F2AA1D0A9FF2007EE115 /* meiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4D5F2B41D0A9FF2007EE115 /* meiroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5F2C41D0A9FF2007EE115 /* Build configuration list for PBXNativeTarget "meiroUITests" */;
+			buildPhases = (
+				F4D5F2B11D0A9FF2007EE115 /* Sources */,
+				F4D5F2B21D0A9FF2007EE115 /* Frameworks */,
+				F4D5F2B31D0A9FF2007EE115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D5F2B71D0A9FF2007EE115 /* PBXTargetDependency */,
+			);
+			name = meiroUITests;
+			productName = meiroUITests;
+			productReference = F4D5F2B51D0A9FF2007EE115 /* meiroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D5F28E1D0A9FF2007EE115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "内山香";
+				TargetAttributes = {
+					F4D5F2951D0A9FF2007EE115 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F4D5F2A91D0A9FF2007EE115 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4D5F2951D0A9FF2007EE115;
+					};
+					F4D5F2B41D0A9FF2007EE115 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4D5F2951D0A9FF2007EE115;
+					};
+				};
+			};
+			buildConfigurationList = F4D5F2911D0A9FF2007EE115 /* Build configuration list for PBXProject "meiro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4D5F28D1D0A9FF2007EE115;
+			productRefGroup = F4D5F2971D0A9FF2007EE115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D5F2951D0A9FF2007EE115 /* meiro */,
+				F4D5F2A91D0A9FF2007EE115 /* meiroTests */,
+				F4D5F2B41D0A9FF2007EE115 /* meiroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D5F2941D0A9FF2007EE115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5F2A41D0A9FF2007EE115 /* LaunchScreen.storyboard in Resources */,
+				F4D5F2A11D0A9FF2007EE115 /* Assets.xcassets in Resources */,
+				F4D5F29F1D0A9FF2007EE115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5F2A81D0A9FF2007EE115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5F2B31D0A9FF2007EE115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D5F2921D0A9FF2007EE115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5F29C1D0A9FF2007EE115 /* ViewController.swift in Sources */,
+				F4D5F29A1D0A9FF2007EE115 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5F2A61D0A9FF2007EE115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5F2AF1D0A9FF2007EE115 /* meiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5F2B11D0A9FF2007EE115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5F2BA1D0A9FF2007EE115 /* meiroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D5F2AC1D0A9FF2007EE115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D5F2951D0A9FF2007EE115 /* meiro */;
+			targetProxy = F4D5F2AB1D0A9FF2007EE115 /* PBXContainerItemProxy */;
+		};
+		F4D5F2B71D0A9FF2007EE115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D5F2951D0A9FF2007EE115 /* meiro */;
+			targetProxy = F4D5F2B61D0A9FF2007EE115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D5F29D1D0A9FF2007EE115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5F29E1D0A9FF2007EE115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4D5F2A21D0A9FF2007EE115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5F2A31D0A9FF2007EE115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D5F2BC1D0A9FF2007EE115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4D5F2BD1D0A9FF2007EE115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4D5F2BF1D0A9FF2007EE115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = meiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.meiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4D5F2C01D0A9FF2007EE115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = meiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.meiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4D5F2C21D0A9FF2007EE115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = meiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.meiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meiro.app/meiro";
+			};
+			name = Debug;
+		};
+		F4D5F2C31D0A9FF2007EE115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = meiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.meiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meiro.app/meiro";
+			};
+			name = Release;
+		};
+		F4D5F2C51D0A9FF2007EE115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = meiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.meiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meiro;
+			};
+			name = Debug;
+		};
+		F4D5F2C61D0A9FF2007EE115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = meiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.meiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meiro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D5F2911D0A9FF2007EE115 /* Build configuration list for PBXProject "meiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5F2BC1D0A9FF2007EE115 /* Debug */,
+				F4D5F2BD1D0A9FF2007EE115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D5F2BE1D0A9FF2007EE115 /* Build configuration list for PBXNativeTarget "meiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5F2BF1D0A9FF2007EE115 /* Debug */,
+				F4D5F2C01D0A9FF2007EE115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4D5F2C11D0A9FF2007EE115 /* Build configuration list for PBXNativeTarget "meiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5F2C21D0A9FF2007EE115 /* Debug */,
+				F4D5F2C31D0A9FF2007EE115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4D5F2C41D0A9FF2007EE115 /* Build configuration list for PBXNativeTarget "meiroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5F2C51D0A9FF2007EE115 /* Debug */,
+				F4D5F2C61D0A9FF2007EE115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D5F28E1D0A9FF2007EE115 /* Project object */;
+}
